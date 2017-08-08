@@ -28,6 +28,5 @@ class FrogAdapter: Jumping {
     func jump() {
         frog.leap()
     }
-    
 }
 
