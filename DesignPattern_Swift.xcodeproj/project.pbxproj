@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ECE4D42A1F4194DC006670F7 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D4291F4194DC006670F7 /* People.swift */; };
+		ECE4D42C1F41960A006670F7 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D42B1F41960A006670F7 /* Factory.swift */; };
+		ECE4D42E1F419715006670F7 /* FactoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D42D1F419715006670F7 /* FactoryController.swift */; };
+		ECE4D4301F419DB7006670F7 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D42F1F419DB7006670F7 /* BaseController.swift */; };
 		ECF49DC11F39EE3B0012BAD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF49DC01F39EE3B0012BAD4 /* AppDelegate.swift */; };
 		ECF49DC31F39EE3B0012BAD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF49DC21F39EE3B0012BAD4 /* ViewController.swift */; };
 		ECF49DC61F39EE3B0012BAD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF49DC41F39EE3B0012BAD4 /* Main.storyboard */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ECE4D4291F4194DC006670F7 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		ECE4D42B1F41960A006670F7 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		ECE4D42D1F419715006670F7 /* FactoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryController.swift; sourceTree = "<group>"; };
+		ECE4D42F1F419DB7006670F7 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		ECF49DBD1F39EE3B0012BAD4 /* DesignPattern_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF49DC01F39EE3B0012BAD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECF49DC21F39EE3B0012BAD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +51,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ECE4D4281F41946B006670F7 /* FactoryMethodPattern */ = {
+			isa = PBXGroup;
+			children = (
+				ECE4D4291F4194DC006670F7 /* People.swift */,
+				ECE4D42B1F41960A006670F7 /* Factory.swift */,
+				ECE4D42D1F419715006670F7 /* FactoryController.swift */,
+			);
+			path = FactoryMethodPattern;
+			sourceTree = "<group>";
+		};
 		ECF49DB41F39EE3B0012BAD4 = {
 			isa = PBXGroup;
 			children = (
@@ -62,9 +80,11 @@
 		ECF49DBF1F39EE3B0012BAD4 /* DesignPattern_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				ECE4D4281F41946B006670F7 /* FactoryMethodPattern */,
 				ECF49DD41F39F4BE0012BAD4 /* AdapterPattern */,
 				ECF49DC01F39EE3B0012BAD4 /* AppDelegate.swift */,
 				ECF49DC21F39EE3B0012BAD4 /* ViewController.swift */,
+				ECE4D42F1F419DB7006670F7 /* BaseController.swift */,
 				ECF49DC41F39EE3B0012BAD4 /* Main.storyboard */,
 				ECF49DC71F39EE3B0012BAD4 /* Assets.xcassets */,
 				ECF49DC91F39EE3B0012BAD4 /* LaunchScreen.storyboard */,
@@ -155,12 +175,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE4D42C1F41960A006670F7 /* Factory.swift in Sources */,
 				ECF49DD31F39EEF10012BAD4 /* AdapterPatternController.swift in Sources */,
+				ECE4D4301F419DB7006670F7 /* BaseController.swift in Sources */,
 				ECF49DC31F39EE3B0012BAD4 /* ViewController.swift in Sources */,
+				ECE4D42A1F4194DC006670F7 /* People.swift in Sources */,
 				ECF49DDA1F39F7010012BAD4 /* Frog.swift in Sources */,
 				ECF49DD61F39F53C0012BAD4 /* Jumping.swift in Sources */,
 				ECF49DC11F39EE3B0012BAD4 /* AppDelegate.swift in Sources */,
 				ECF49DD81F39F58C0012BAD4 /* Animal.swift in Sources */,
+				ECE4D42E1F419715006670F7 /* FactoryController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +358,7 @@
 				ECF49DD11F39EE3B0012BAD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

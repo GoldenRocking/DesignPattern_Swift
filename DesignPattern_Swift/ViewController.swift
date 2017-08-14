@@ -16,7 +16,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.title = "设计模式——Swift"
-        dataArray = ["适配器模式"];
+        dataArray = ["适配器模式","工厂模式"];
         createUI();
     }
     
@@ -43,7 +43,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         switch (indexPath as NSIndexPath).row {
         case 0:
             self.navigationController?.pushViewController(AdapterPatternController(), animated: true)
-            // case 1:
+        case 1:
+            self.navigationController?.pushViewController(FactoryController(), animated: true)
             
             
         default:

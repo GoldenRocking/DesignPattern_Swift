@@ -8,29 +8,32 @@
 
 import UIKit
 
-class AdapterPatternController: UIViewController {
+class AdapterPatternController: BaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         self.title = "适配器模式"
-        
+    }
+    
+    override func createPattern() {
         let dog = Dog()
         let cat = Cat()
         /*
-        let frog = Frog()
-        let animals : [Jumping] = [dog,cat,frog]
-        */
+         let frog = Frog()
+         let animals : [Jumping] = [dog,cat,frog]
+         */
         
         
         let frogAdapter = FrogAdapter()
         let animals : [Jumping] = [dog,cat,frogAdapter]
         
         jumpAll(animals: animals);
+        
     }
     
-    func jumpAll(animals: [Jumping]){
+    private func jumpAll(animals: [Jumping]){
         for animal in animals {
             animal.jump()
         }
