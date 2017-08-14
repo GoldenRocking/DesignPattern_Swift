@@ -16,7 +16,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.title = "设计模式——Swift"
-        dataArray = ["适配器模式","工厂模式"];
+        dataArray = ["适配器模式","工厂方法模式"];
         createUI();
     }
     
