@@ -16,7 +16,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.title = "设计模式——Swift"
-        dataArray = ["适配器模式","工厂方法模式"];
+        dataArray = ["适配器模式","工厂方法模式","抽象工厂模式"];
         createUI();
     }
     
@@ -45,6 +45,9 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             self.navigationController?.pushViewController(AdapterPatternController(), animated: true)
         case 1:
             self.navigationController?.pushViewController(FactoryController(), animated: true)
+            
+        case 2:
+            self.navigationController?.pushViewController(AbstractFactoryController(), animated: true)
             
             
         default:

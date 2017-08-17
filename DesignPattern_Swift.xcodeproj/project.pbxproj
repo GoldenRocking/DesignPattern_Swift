@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC3CDED41F4490A800C41608 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3CDED31F4490A800C41608 /* Human.swift */; };
+		EC3CDED61F4490D900C41608 /* AbstractFactoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3CDED51F4490D900C41608 /* AbstractFactoryController.swift */; };
+		EC3CDED81F4494D600C41608 /* AbsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3CDED71F4494D600C41608 /* AbsFactory.swift */; };
 		ECE4D42A1F4194DC006670F7 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D4291F4194DC006670F7 /* People.swift */; };
 		ECE4D42C1F41960A006670F7 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D42B1F41960A006670F7 /* Factory.swift */; };
 		ECE4D42E1F419715006670F7 /* FactoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D42D1F419715006670F7 /* FactoryController.swift */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC3CDED31F4490A800C41608 /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		EC3CDED51F4490D900C41608 /* AbstractFactoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryController.swift; sourceTree = "<group>"; };
+		EC3CDED71F4494D600C41608 /* AbsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsFactory.swift; sourceTree = "<group>"; };
 		ECE4D4291F4194DC006670F7 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 		ECE4D42B1F41960A006670F7 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		ECE4D42D1F419715006670F7 /* FactoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryController.swift; sourceTree = "<group>"; };
@@ -51,6 +57,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC3CDED21F44902B00C41608 /* AbstractFactoryPattern */ = {
+			isa = PBXGroup;
+			children = (
+				EC3CDED31F4490A800C41608 /* Human.swift */,
+				EC3CDED51F4490D900C41608 /* AbstractFactoryController.swift */,
+				EC3CDED71F4494D600C41608 /* AbsFactory.swift */,
+			);
+			path = AbstractFactoryPattern;
+			sourceTree = "<group>";
+		};
 		ECE4D4281F41946B006670F7 /* FactoryMethodPattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +96,7 @@
 		ECF49DBF1F39EE3B0012BAD4 /* DesignPattern_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				EC3CDED21F44902B00C41608 /* AbstractFactoryPattern */,
 				ECE4D4281F41946B006670F7 /* FactoryMethodPattern */,
 				ECF49DD41F39F4BE0012BAD4 /* AdapterPattern */,
 				ECF49DC01F39EE3B0012BAD4 /* AppDelegate.swift */,
@@ -177,9 +194,12 @@
 			files = (
 				ECE4D42C1F41960A006670F7 /* Factory.swift in Sources */,
 				ECF49DD31F39EEF10012BAD4 /* AdapterPatternController.swift in Sources */,
+				EC3CDED41F4490A800C41608 /* Human.swift in Sources */,
 				ECE4D4301F419DB7006670F7 /* BaseController.swift in Sources */,
 				ECF49DC31F39EE3B0012BAD4 /* ViewController.swift in Sources */,
+				EC3CDED81F4494D600C41608 /* AbsFactory.swift in Sources */,
 				ECE4D42A1F4194DC006670F7 /* People.swift in Sources */,
+				EC3CDED61F4490D900C41608 /* AbstractFactoryController.swift in Sources */,
 				ECF49DDA1F39F7010012BAD4 /* Frog.swift in Sources */,
 				ECF49DD61F39F53C0012BAD4 /* Jumping.swift in Sources */,
 				ECF49DC11F39EE3B0012BAD4 /* AppDelegate.swift in Sources */,
