@@ -17,6 +17,7 @@
  
 
 ## 四.Swift实现抽象工厂方法模式：
+
 产品类：
 ```
 
@@ -101,6 +102,7 @@ class YellowFeman: YellowHuman {
 }
 ```
 不管是黑人，白人还是黄种人，它们都有男人和女人。那么，在造人的时候就要分别造出男人和女人。
+
 工厂类：
 ```
 enum HumanType {
@@ -162,6 +164,7 @@ fileprivate class FemanFactory : HumanFactory
 }
 ```
 创建两个工厂类，分别建造男人和女人。抽象工厂类只需要根据参数返回这两个工厂类即可。
+
 调用:
 ```
 let fac =  HumanFactory.makeHumanFactory(type: .man)
