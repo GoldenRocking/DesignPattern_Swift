@@ -10,6 +10,8 @@
 		EC3CDED41F4490A800C41608 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3CDED31F4490A800C41608 /* Human.swift */; };
 		EC3CDED61F4490D900C41608 /* AbstractFactoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3CDED51F4490D900C41608 /* AbstractFactoryController.swift */; };
 		EC3CDED81F4494D600C41608 /* AbsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3CDED71F4494D600C41608 /* AbsFactory.swift */; };
+		ECCEBD691F48146100CB9578 /* SingletonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEBD681F48146100CB9578 /* SingletonController.swift */; };
+		ECCEBD6B1F4815CD00CB9578 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEBD6A1F4815CD00CB9578 /* Singleton.swift */; };
 		ECE4D42A1F4194DC006670F7 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D4291F4194DC006670F7 /* People.swift */; };
 		ECE4D42C1F41960A006670F7 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D42B1F41960A006670F7 /* Factory.swift */; };
 		ECE4D42E1F419715006670F7 /* FactoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D42D1F419715006670F7 /* FactoryController.swift */; };
@@ -29,6 +31,8 @@
 		EC3CDED31F4490A800C41608 /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
 		EC3CDED51F4490D900C41608 /* AbstractFactoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryController.swift; sourceTree = "<group>"; };
 		EC3CDED71F4494D600C41608 /* AbsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsFactory.swift; sourceTree = "<group>"; };
+		ECCEBD681F48146100CB9578 /* SingletonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonController.swift; sourceTree = "<group>"; };
+		ECCEBD6A1F4815CD00CB9578 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		ECE4D4291F4194DC006670F7 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 		ECE4D42B1F41960A006670F7 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		ECE4D42D1F419715006670F7 /* FactoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryController.swift; sourceTree = "<group>"; };
@@ -67,6 +71,15 @@
 			path = AbstractFactoryPattern;
 			sourceTree = "<group>";
 		};
+		ECCEBD671F48142600CB9578 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				ECCEBD681F48146100CB9578 /* SingletonController.swift */,
+				ECCEBD6A1F4815CD00CB9578 /* Singleton.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
 		ECE4D4281F41946B006670F7 /* FactoryMethodPattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +109,7 @@
 		ECF49DBF1F39EE3B0012BAD4 /* DesignPattern_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				ECCEBD671F48142600CB9578 /* Singleton */,
 				EC3CDED21F44902B00C41608 /* AbstractFactoryPattern */,
 				ECE4D4281F41946B006670F7 /* FactoryMethodPattern */,
 				ECF49DD41F39F4BE0012BAD4 /* AdapterPattern */,
@@ -203,7 +217,9 @@
 				ECF49DDA1F39F7010012BAD4 /* Frog.swift in Sources */,
 				ECF49DD61F39F53C0012BAD4 /* Jumping.swift in Sources */,
 				ECF49DC11F39EE3B0012BAD4 /* AppDelegate.swift in Sources */,
+				ECCEBD691F48146100CB9578 /* SingletonController.swift in Sources */,
 				ECF49DD81F39F58C0012BAD4 /* Animal.swift in Sources */,
+				ECCEBD6B1F4815CD00CB9578 /* Singleton.swift in Sources */,
 				ECE4D42E1F419715006670F7 /* FactoryController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
