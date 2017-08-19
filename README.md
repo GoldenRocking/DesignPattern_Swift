@@ -5,3 +5,5 @@
 ## 2.工厂模式(Factory Pattern)
 
 ## 3.抽象工厂模式(Abstract Factory Pattern)
+
+## 4.单例模式(Singleton Pattern)
